@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanna Date?</title>
+    <link rel="icon" type="image/png" href="src/assets/front-stk.webp">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("wallpaperflare.com_wallpaper (4).jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .card {
+        width: 300px;
+        height: 400px;
+        perspective: 1000px;
+      }
+
+      .outside, .inside {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.6s;
+      }
+
+      .outside {
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);
+      }
+
+      .inside {
+        transform-style: preserve-3d;
+        transform: rotateY(180deg);
+        background: rgba(255, 255, 255, 0.8);
+      }
+
+      .card:hover .outside {
+        transform: rotateY(180deg);
+      }
+
+      .card:hover .inside {
+        transform: rotateY(360deg);
+      }
+
+      .front, .back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        border-radius: 15px;
+      }
+
+      .front {
+        background-image: url("WhatsApp Image 2024-07-30 at 00.25.16.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .back {
+        background-image: url("wallpaperflare.com_wallpaper (6).jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: rotateY(180deg);
+      }
+
+      .hiee p1 {
+        font-size: 24px;
+        color: #fff;
+        margin: 0;
+      }
+
+      .front-sticker img, .back-sticker img {
+        max-width: 80%;
+        border-radius: 50%;
+      }
+
+      .Text p {
+        font-size: 24px;
+        color: #333;
+        margin: 0;
+      }
+
+      .main-sticker img {
+        max-width: 80%;
+        margin-top: 10px;
+      }
+
+      .buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        transition: background 0.3s;
+      }
+
+      .btn:hover {
+        background: #ddd;
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .footer img {
+        height: 42px;
+      }
+    </style>
+    <div class="card">
+      <div class="outside">
+        <div class="front">
+          <div class="hiee">
+            <p1>Hiee Cutiee</p1>
+          </div>
+          <div class="front-sticker">
+            <img src="file.png" alt="Hiee Pumpkin !!">
+          </div>
+        </div>
+        <div class="back">
+          <div class="back-sticker">
+            <img src="flower.jpeg" alt="Phool !!">
+          </div>
+        </div>
+      </div>
+      <div class="inside">
+        <div class="Text">
+          <p>Wanna Grab a Coffee?</p>
+        </div>
+        <div class="main-sticker">
+          <img src="Cofffe.png" alt="Wanna Date?">
+        </div>
+        <div class="buttons">
+          <button class="btn" id="yesButton" onclick="nextPage('yes')">Yes</button>
+          <button class="btn" id="noButton" onclick="nextPage('no')">No</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="https://github.com/KushagraKumar04/Coffee-Date">
+        <img src="GitHub-Logo.wine.png" alt="GitHub Logo" height="42">
+      </a>
+    </footer>
+    <script>
+      function nextPage(choice) {
+        if (choice === 'yes') {
+          window.location.href = "yes.html";
+        } else if (choice === 'no') {
+          window.location.href = "no.html";
+        }
+      }
+    </script>
+  </body>
+</html>

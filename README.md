@@ -2,6 +2,9 @@
 
 A simple web page to confirm acceptance of a coffee date invitation.
 
+![FrontEnd](image.png)
+
+
 ## Features
 
 - Displays a confirmation message.

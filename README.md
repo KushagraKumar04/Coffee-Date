@@ -1,6 +1,6 @@
 # Coffee Date Invitation
 
-A simple web page to confirm acceptance of a coffee date invitation OR
+A simple web page to confirm acceptance of a coffee date invitation or Rejection
 
 ![FrontEnd](image.png)
 

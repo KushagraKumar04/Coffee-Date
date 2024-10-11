@@ -1,4 +1,4 @@
-# Coffee Date Invitation
+# Coffee Date Invitation Web
 
 A simple web page to confirm acceptance of a coffee date invitation. 
 

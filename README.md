@@ -1,6 +1,6 @@
 # Coffee Date Invitation
 
-A simple web page to confirm acceptance of a coffee date invitations. 
+A simple web pages to confirm acceptance of a coffee date invitations. 
 
 ![FrontEnd](image.png)
 

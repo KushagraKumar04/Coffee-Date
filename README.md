@@ -1,6 +1,6 @@
 # Asking for a Coffee Date 
 
-A simple pages to confirm acceptance of a coffee date invitations. 
+A simple interface to confirm acceptance of a coffee date invitations. 
 
 ![FrontEnd](image.png)
 

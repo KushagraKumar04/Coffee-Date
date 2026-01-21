@@ -1,4 +1,4 @@
-# Asking for a Coffee Date 
+# Asking for a Coffe Date 
 
 A simple interface to confirm acceptance of a coffee date invitations. 
 

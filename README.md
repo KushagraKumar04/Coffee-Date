@@ -1,4 +1,4 @@
-# Asking for a Coffee  Date 
+# Asking for a Coffee 
 
 A simple interface to confirm acceptance of a coffee date invitations. 
 
@@ -22,3 +22,7 @@ A simple interface to confirm acceptance of a coffee date invitations.
 1. Clone the repository:
    ```sh
    git clone https://github.com/KushagraKumar04/Coffee-Date.git
+
+## Collaboration Test
+
+Testing collaborative development with GitHub.
